@@ -1,0 +1,405 @@
+html {
+    scrollbar-face-color: #646464;
+    scrollbar-base-color: #646464;
+    scrollbar-3dlight-color: #646464;
+    scrollbar-highlight-color: #646464;
+    scrollbar-track-color: #000;
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #646464;
+    scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #666;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #646464;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #666;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #646464;
+}
+}
+
+::-webkit-resizer {
+    background-color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Space Mono', monospace;
+    color: whitesmoke;
+}
+
+.container {
+    padding: 20px 5% 5%;
+}
+
+
+/*cards */
+
+
+section a,
+section a:hover {
+    text-decoration: none;
+}
+
+section socialbtns,
+section socialbtns ul,
+section socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+section socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+section socialbtns .fa {
+    width: 40px;
+    height: 28px;
+    color: whitesmoke;
+    background-color: #000;
+    padding-top: 12px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+
+section socialbtns .fa:hover {
+    transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+
+
+
+
+
+section img {
+    height: auto;
+    width: 100%;
+}
+
+section h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 2.25em;
+    font-weight: 300;
+    letter-spacing: -.05em;
+    margin: .25em 0 .25em;
+}
+
+p {
+    line-height: 1.4;
+}
+
+strong {
+    color: #898989;
+    font-size: .75em;
+    letter-spacing: -.025em;
+    text-transform: uppercase;
+    word-spacing: .0625em;
+}
+
+
+
+main {
+    margin: auto;
+    max-width: 360px;
+    clear: both;
+}
+
+section section {
+    background: #ffffff00;
+    border-radius: .25em;
+    box-shadow: 0 .125em .125em hsla(0, 0%, 0%, .1);
+    margin: 1.5em 0;
+    overflow: hidden;
+}
+
+section {
+    border: solid 1px white;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+section icon {}
+
+figure {
+    height: 12.5em;
+    margin: 15px;
+    margin-bottom: 0px;
+    /*  for fill card image   margin: 0px;*/
+}
+
+article {
+    padding: 2em;
+}
+
+
+
+@supports (display: grid) {
+    @media only screen and (min-width: 768px) {
+        body {
+            font-size: 1em;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+            grid-gap: 1.5em;
+            max-width: 1080px;
+        }
+
+        section {
+            margin: 0;
+        }
+
+    }
+}
+
+/*divider */
+.divider {
+    text-align: left;
+    border-bottom: solid whitesmoke 1px;
+    margin: 20px;
+    clear: both;
+}
+
+.divider h2 {
+    color: whitesmoke;
+}
+
+
+/* More info */
+
+.info {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #FF914D;
+    padding: 2px 0px;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    clear: both;
+    display: none;
+}
+
+.info:hover {
+    background-color: #E88446;
+    cursor: pointer;
+}
+
+
+
+/*light box*/
+
+/* Style the Image Used to Trigger the Modal */
+
+figure img {
+    cursor: pointer;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: hidden;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+
+    .divider h2 {
+        color: whitesmoke;
+        font-size: 18px;
+    }
+
+    section p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    section strong {
+        font-size: 16px;
+
+    }
+
+    section li {
+        font-size: 16px;
+    }
+
+    section {
+        padding-bottom: 10px;
+    }
+}
+
+
+/*image hover */
+
+
+
+.iconContainer {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 15%;
+    width: 10%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+}
+
+.iconContainer:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    font-weight: lighter;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #eee;
+}

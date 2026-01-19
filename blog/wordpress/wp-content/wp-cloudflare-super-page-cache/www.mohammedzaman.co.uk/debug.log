@@ -1,0 +1,47 @@
+[2022-05-23 19:52:38] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-05-23 19:52:38] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 66 - Fired action: litespeed_api_purge_post
+[2022-05-23 19:52:39] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-05-23 19:52:40] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-05-23 19:52:40] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2022-05-23 19:58:19] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-05-23 19:58:19] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 66 - Fired action: litespeed_api_purge_post
+[2022-05-23 19:58:19] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-05-23 19:58:20] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-05-23 19:58:20] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2022-05-23 20:03:23] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-05-23 20:03:23] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 66 - Fired action: litespeed_api_purge_post
+[2022-05-23 20:03:23] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-05-23 20:03:24] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-05-23 20:03:24] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2022-05-23 20:07:33] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-05-23 20:07:33] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 66 - Fired action: litespeed_api_purge_post
+[2022-05-23 20:07:35] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-05-23 20:07:36] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-05-23 20:07:36] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2022-05-23 20:10:21] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-05-23 20:10:21] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 66 - Fired action: litespeed_api_purge_post
+[2022-05-23 20:10:23] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-05-23 20:10:24] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-05-23 20:10:24] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2022-06-15 08:13:13] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 3 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 1 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 47 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 48 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 54 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 57 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 59 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 60 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 61 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 2 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 52 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 64 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:13:13] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 68 - Fired action: litespeed_api_purge_post
+[2022-06-15 08:52:12] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-06-15 08:52:13] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-06-15 08:52:13] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2022-06-16 02:44:55] [cache_controller::purge_cache_queue_write] queue file not exist
+[2022-06-16 02:44:55] [cache_controller::litespeed_single_post_hooks] Purge Cloudflare cache for only post 74 - Fired action: litespeed_api_purge_post
+[2022-06-16 03:14:25] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2022-06-16 03:14:26] [cache_controller::purge_urls] Unable to purge some URLs from Cloudflare due to error: Could not route to /zones/purge_cache, perhaps your object identifier is invalid? (err code: 7003) - No route for that URI (err code: 7000)
+[2022-06-16 03:14:26] [cache_controller::purge_cache_queue_job] Cache purging complete

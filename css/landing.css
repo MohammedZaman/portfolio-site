@@ -1,0 +1,69 @@
+.highlight {
+    color: #FFFF00;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#test1 {
+    height: 0.5%;
+}
+
+#test2 {
+    height: 0.5%;
+}
+
+
+
+.middlebox-wrapper {
+    position: absolute;
+    left: 50%;
+    width: 60%;
+}
+
+.middlebox {
+    position: relative;
+    left: -50%;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    background: black;
+}
+
+.border {
+    border: solid white 1px;
+}
+
+@media only screen and (max-width: 760px) {
+    .col-6 {
+        width: 100%;
+        clear: both;
+    }
+
+    /*move to landing.css*/
+    .middlebox-wrapper {
+        position: absolute;
+        left: 50%;
+        width: 60%;
+        margin-bottom: auto;
+    }
+
+    .middlebox {
+        position: relative;
+        left: -50%;
+        margin-top: 60px;
+        margin-bottom: 80%;
+        font-size: 14px;
+        line-height: 1.5;
+        background: black;
+    }
+
+    #test1 {
+        height: 100%;
+    }
+
+    #test2 {
+        height: 100%;
+    }
+
+
+}
